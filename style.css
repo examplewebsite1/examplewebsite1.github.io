@@ -1,3 +1,3 @@
-#grad {
-  body: linear-gradient(red, yellow);
+body {
+  background-color: linear-gradient(lightblue, green);
 }
