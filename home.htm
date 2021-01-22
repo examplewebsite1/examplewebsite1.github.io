@@ -2,9 +2,10 @@
 <head>
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <script type="text/javascript">
-        function codeAddress() {
-            alert('ok');
-        }
+   var goFS = document.getElementById("goFS");
+  goFS.addEventListener("click", function() {
+      document.body.requestFullscreen();
+  }, false);  
         window.onload = codeAddress;
         </script>
   <link rel="apple-touch-icon" sizes="180x180" href="/Favicons/apple-touch-icon.png">
